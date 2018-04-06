@@ -24,3 +24,30 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
+function removeElementFromBeginningOfArray(array){
+  newArray = array.slice(1);
+  return newArray;
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
+
+function removeElementFromEndOfArray(array){
+  newArray = array.slice(0,array.length - 1);
+  return newArray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
